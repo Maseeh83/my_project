@@ -1,0 +1,4 @@
+
+wxPython
+numpy
+matplotlib
