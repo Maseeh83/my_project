@@ -1,4 +1,4 @@
-# file name: VictoriaRoadApp.py
+# file name: main.py
 
 import wx
 
