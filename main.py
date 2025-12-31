@@ -83,7 +83,7 @@ class VicRoadGui(wx.Frame):
 		self.Bind(wx.EVT_BUTTON, self.onVisualise, btnVisualise)
 
 		# Vic Roads image for the top section
-		image = wx.Bitmap('vic_road_updated.png')
+		image = wx.Bitmap('assets/vic_road_updated.png')
 		control = wx.StaticBitmap(pnl, -1, image)
 		control.SetPosition((857, 20))
 
