@@ -2,28 +2,28 @@
 
 import wx
 
-from s1dataBase import dataBase
-from s2accDateConv import accidentDateTypeConverter
-from s3accidentsInPeriod import accidentsInfoInATimePeriod
-from s4accTimeHour import accidentTimeHour
-from s5numOfDays import numOfDays
-from s6avgAccidentsEachHour import avgNumOfAccidentsEachHour
-from s7plotAccInEachHour import plotAvgNumOfAccInHour
-from s8sameTypeAccidents import getSameTypeAccidents
-from s9numOfAccsEachYear import numOfAccidentsEachYear
-from s10plotAlcAccOverYears import plotNumAccOverYears
-from s11accidentTypes import accidentTypes
-from s12numAlcAccsEachType import numOfAlcAccidentsEachType
-from s13plotAlcAccOverAccType import plotAlcAccOverAccType
-from s14accidentSeverities import accidentSeverities
-from s15numAlcAccsSeverities import numOfAlcAccidentsSeverities
-from s16plotAlcAccEachSeverity import plotNumAccSeverity
-from s17roadGeometry import roadGeometry
-from s18numAccRoadGeo import numAccRoadGeo
-from s19plotNumAccRoadGeo import plotNumAccRoadGeo
-from s20accSpeedZones import accSpeedZones
-from s21numAccSpeedZone import numAccInSpeedZones
-from s22plotAccSeveritySpeedZone import plotNumAccSeveritySpeedZone
+from src.s1dataBase import dataBase
+from src.s2accDateConv import accidentDateTypeConverter
+from src.s3accidentsInPeriod import accidentsInfoInATimePeriod
+from src.s4accTimeHour import accidentTimeHour
+from src.s5numOfDays import numOfDays
+from src.s6avgAccidentsEachHour import avgNumOfAccidentsEachHour
+from src.s7plotAccInEachHour import plotAvgNumOfAccInHour
+from src.s8sameTypeAccidents import getSameTypeAccidents
+from src.s9numOfAccsEachYear import numOfAccidentsEachYear
+from src.s10plotAlcAccOverYears import plotNumAccOverYears
+from src.s11accidentTypes import accidentTypes
+from src.s12numAlcAccsEachType import numOfAlcAccidentsEachType
+from src.s13plotAlcAccOverAccType import plotAlcAccOverAccType
+from src.s14accidentSeverities import accidentSeverities
+from src.s15numAlcAccsSeverities import numOfAlcAccidentsSeverities
+from src.s16plotAlcAccEachSeverity import plotNumAccSeverity
+from src.s17roadGeometry import roadGeometry
+from src.s18numAccRoadGeo import numAccRoadGeo
+from src.s19plotNumAccRoadGeo import plotNumAccRoadGeo
+from src.s20accSpeedZones import accSpeedZones
+from src.s21numAccSpeedZone import numAccInSpeedZones
+from src.s22plotAccSeveritySpeedZone import plotNumAccSeveritySpeedZone
 
 # Global variables
 orgAccidents = []
