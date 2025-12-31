@@ -8,7 +8,7 @@ def dataBase():
 	"""To create a database from file 'Crash Statistics Victoria.csv' using sqlite script,
 	fetch all data from the database and return all the accidents in a list."""
 
-	path = 'Crash Statistics Victoria.csv'
+	path = 'data/Crash Statistics Victoria.csv'
 	if not isfile("CrashStatisticsVictoria.db"):
 		connection = sqlite3.connect("CrashStatisticsVictoria.db")
 		cursor = connection.cursor()
